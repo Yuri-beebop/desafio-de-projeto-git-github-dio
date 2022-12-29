@@ -35,20 +35,15 @@ Quando se trata de escrever na linguagem Java, é recomendado seguir algumas con
       ano e anoFabricacao
   
    O nome dessa pratica para nomear variaveis se chama "camelCase".
-  
-  
-  
-  ## ! Existe uma regra adicional para variveis quando na mesma queremos identificar que que ela não sofrera alterações de valor, exemplo: queremos determinar que a variavel "br" sempre apresentara "Brasil" e nunca mudara o seu valor, logo, determinamos como escrita o codigo abaixo:
-  
+
+## ! Existe uma regra adicional para variveis quando na mesma queremos identificar que que ela não sofrera alterações de valor, exemplo: queremos determinar que a variavel "br" sempre apresentara "Brasil" e nunca mudara o seu valor, logo, determinamos como escrita o codigo abaixo:
+
       final String BR = "Brasil"
       double PI = 3,14
       int ESTADOS_BRASILEIROS = 27
       int ANO_2000 = 2000
-       
 
 Para declarar uma variavel podemos utilizar caracteres, nomeros e simbolos, podem devemos seguir algumas regras de linguagem:
-
-
 
 - Deve conter apenas letras, _ $ ou os nomeros de 0 à 9
 
@@ -75,46 +70,31 @@ Para declarar uma variavel podemos utilizar caracteres, nomeros e simbolos, pode
        11 int numeroum = 1;
        12 int longo = 1;
        13
-       
+
+# Declarando variáveis e métodos
+
+Como identificar entre declarações de variáveis e métodos em nosso program? Existe uma estrutura comum para ambas as finalidades, exemplo:
+
+- Declara uma varoável em Java segue sempre a seguinte estrutura:
   
+      1 //Estrutura
+      2
+      3 Tipo NomeBemDefinido = Atributo (opcional em alguns casos)
+      4 
+      5 //Exemplo 
+      6
+      7 int idade : 23;
+      8 double altura = 1.62;
+      9 dog spike; // observe que aqui a variavel spike não tem valor 
+
+- Declarar métodos segue uma estrutura simple, como exemplificado a seguir:
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      1 // Estrutura 2 3 TipoRetorno NomeObjetivoNoInfinitivo Parametros 
+      4 
+      5 // Exemplo 
+      6 
+      7 int somar (int nomeroUm, int numero2) 
+      8 
+      9 String formatarCep (long cep)
 
 
