@@ -12,5 +12,5 @@ public class TiposVariaveis {
         final int numero = 1;  //final não permite que o valor da variavel seja alterada
     
     }
-    
+
 }
