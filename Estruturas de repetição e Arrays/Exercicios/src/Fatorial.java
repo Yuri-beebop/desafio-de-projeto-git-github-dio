@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.xml.transform.Source;
-
 public class Fatorial {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
